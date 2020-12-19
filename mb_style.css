@@ -1,9 +1,14 @@
+@charset "UTF-8";
+
+/* ëSëÃ */
+/* ècÇ™2411px(ébíË) */
+
 html {
 	overflow: auto;
 }
 body {
 	overflow: hidden;
-	min-width: 540px;
+	min-width: 369px;
 }
 
 /* ÉwÉbÉ_Å[ */
@@ -11,12 +16,11 @@ body {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(Background_top.jpg) center / cover;
+    background: url(mb_background.jpg) center / cover;
 }
 
-.Rogo{
-    position: relative;
-    width: 50%;
-    left: 25%;
-    top: 25vh;
+.mb_rogo{
+    position: absolute;
+    width: 100%;
+    top: 14.51%;
 }
